@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Nicolas Luiz Pereira</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="menu-navegacao">
+        <ul>
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="perfil-container">
+
+        <div id="sobre-mim" class="secao sobre-mim-secao">
+            <h2 class="secao-titulo">Sobre Mim</h2>
+            <p class="secao-conteudo">
+                Me chamo Nicolas Luiz Pereira, tenho 20 anos e trabalho atualmente em uma empresa de logística como auxiliar de almoxarifado.<br> Possuo experiência em empresas como DHL e Centauro. Gosto da área de logística, mas com minhas formações em andamento pretendo me especializar em automação e manutenção eletrônica industrial.
+            </p>
+        </div>
+
+        <div id="formacao" class="secao formacao-secao">
+            <h2 class="secao-titulo">Formação Profissional</h2>
+            <p class="secao-conteudo">Minha formação acadêmica consiste em:</p>
+            <ul class="lista-formacao">
+                <li>Ensino Médio Completo - E.E. Prof Maximiano Lambert</li>
+                <li>Análise e Desenvolvimento de Sistemas - UNINTER (Cursando)</li>
+                <li>Aprendizagem Industrial em Gestão - SENAI</li>
+                <li>Elétrica Industrial - IFSULDEMINAS</li>
+            </ul>
+        </div>
+        
+        <div id="portfolio" class="secao portfolio-secao">
+            <h2 class="secao-titulo">Portfólio</h2>
+            
+            <div class="portfolio-item">
+                <h3 class="item-titulo"><a href="https://nicolas-luiz.github.io/trabalhoFDS/" target="_blank" rel="noopener noreferrer">Site de Apresentação (Trabalho UNINTER)</a></h3>
+            </div>
+        </div>
+
+        <div id="contato" class="secao contato-secao">
+            <h2 class="secao-titulo">Entre em Contato</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" class="form-control" placeholder="Seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="seu.email@exemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" class="form-control" placeholder="Deixe sua mensagem aqui..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensagem</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
